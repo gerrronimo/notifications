@@ -1,0 +1,25 @@
+header {
+    background: mistyrose;
+    width: 100%;
+    padding: 10px 25px;
+    margin-bottom: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 26px;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: #4e4e4e;
+}

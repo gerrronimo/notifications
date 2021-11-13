@@ -1,0 +1,22 @@
+.simpleNotification {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.simpleNotification h5 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.simpleNotification p {
+    font-size: 14px;
+}
+
+.simpleNotification button {
+    background: none;
+    color: red;
+}

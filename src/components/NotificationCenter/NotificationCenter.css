@@ -1,0 +1,39 @@
+.icon {
+    cursor: pointer;
+}
+
+.notificationCenter {
+    position: absolute;
+    right: 15px;
+    top: 55px;
+
+    background: #e7e7e7;
+    padding: 16px;
+
+    width: 300px;
+    height: 400px;
+
+    overflow: auto;
+}
+
+.notificationCenter::-webkit-scrollbar {
+    display: none;
+}
+
+.score {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+
+    width: min-content;
+    padding: 4px 2px;
+    min-width: 20px;
+    height: 20px;
+    font-size: 12px;
+    background: palevioletred;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
